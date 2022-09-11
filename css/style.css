@@ -42,14 +42,19 @@ header {
     margin-right: 20px;
 }
 
-.logo p {
+.logo h2 {
     text-transform: uppercase;
+    font-size: 20px;
 }
 
 
 .navMain a {
     text-transform: uppercase;
     padding: 30px;
+}
+
+.navMain a:hover {
+    color: rgba(255, 255, 255, 0.5);
 }
 
 
@@ -75,7 +80,7 @@ header {
 form {
     width: 500px;
     margin: auto;
-    background: rgba(0,0,0,0.4);
+    background: rgba(0,0,0,0.5);
     padding: 15px 25px;
     border-radius: 10px;
     box-sizing: border-box;
@@ -100,11 +105,13 @@ font-size: 30px;
 .form__input--enviar {
     padding: 10px 204px;
     margin-bottom: 15px;
+    cursor: pointer;
 }
 
 
 .form__input--reset {
     padding: 10px 187px;
+    cursor: pointer;
 }
 
 textarea {
@@ -165,7 +172,9 @@ textarea {
     background-repeat: no-repeat;
     background-size: cover;
     margin-left: 50px;
+    border-radius: 10px;
 }
+
 
 .Shows h2 {
     text-align: Center;
@@ -208,6 +217,7 @@ textarea {
 .boton {
     text-align: center;
     padding-top: 30px;
+    margin-bottom: 20px;
 }
 
 .hr {
@@ -222,6 +232,7 @@ textarea {
     justify-content: center;
     align-items: center;
     padding: 5px;
+    margin-top: 10px;
 }
 
 .imgf {
@@ -516,6 +527,14 @@ header {
     /* CELULAR INDEX */
 .grid-todo {
     width: 100%;
+}
+
+.seccionShows img {
+    margin: 0px;
+}
+
+.divShows p {
+    margin: 0px;
 }
 
 .navMain a {
