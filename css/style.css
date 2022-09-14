@@ -164,6 +164,7 @@ textarea {
     display: flex;
     justify-content: space-evenly;
     padding-top: 20px;
+    height: 450px;
 }
 
 .seccionShows img {
