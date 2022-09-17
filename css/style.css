@@ -3,6 +3,11 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #131313;
 }
 
 ul li a {
@@ -11,12 +16,12 @@ ul li a {
     color: #ffffff;
 }
 
-body {
+/* body {
     background-color: #302e34;
     background-color: #171618;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='16' viewBox='0 0 20 16'%3E%3Cg fill='%23000000' fill-opacity='0.4'%3E%3Cpath fill-rule='evenodd' d='M0 .04C2.6.22 4.99 1.1 7 2.5A13.94 13.94 0 0 1 15 0h4c.34 0 .67.01 1 .04v2A12 12 0 0 0 7.17 12h5.12A7 7 0 0 1 20 7.07V14a5 5 0 0 0-3-4.58A5 5 0 0 0 14 14H0V7.07c.86.12 1.67.4 2.4.81.75-1.52 1.76-2.9 2.98-4.05C3.79 2.83 1.96 2.2 0 2.04v-2z'/%3E%3C/g%3E%3C/svg%3E");
 color: #ffffff;
-}
+} */
 
 
 a {
@@ -90,7 +95,10 @@ form {
 .form__h1 {
 text-align: center;  
 margin-bottom: 25px;
-font-size: 30px;  
+font-size: 30px;
+color: #fff;
+font-weight: bold;
+text-transform: uppercase;
 }
 
 .form__input {
@@ -103,14 +111,14 @@ font-size: 30px;
 
 
 .form__input--enviar {
-    padding: 10px 204px;
+    padding: 10px 199px;
     margin-bottom: 15px;
     cursor: pointer;
 }
 
 
 .form__input--reset {
-    padding: 10px 187px;
+    padding: 10px 179px;
     cursor: pointer;
 }
 
@@ -133,6 +141,8 @@ textarea {
 .galeria h1 {
     text-align: center;
     font-size: 50px;
+    color: #ffffff;
+    font-weight: bold;
 }
 
 
@@ -148,10 +158,10 @@ textarea {
     font-size: 40px;
 }
 
-.sectionindex h1 {
+/* .sectionindex h1 {
     padding-left: 90px;
 
-}
+} */
 
 
 /* Shows index */
@@ -189,6 +199,8 @@ textarea {
     text-transform: uppercase;
     padding-top: 80px;
     font-size: 35px;
+    color: #ffffff;
+    font-weight: bold;
 }
 
 .divShows p {
@@ -202,6 +214,8 @@ textarea {
     text-transform: uppercase;
     padding-top: 80px;
     font-size: 35px;
+    color: #ffffff;
+    font-weight: bold;
 }
 
 .sectioncanciones {
@@ -247,6 +261,14 @@ textarea {
     padding: 5px 10px;
 }
 
+.footerpa h3 {
+    color: #ffffff;
+}
+
+.derechos {
+    color: #ffffff;
+}
+
 
 /* SECCION INTEGRANTES */
 
@@ -277,6 +299,8 @@ textarea {
     text-align: center;
     padding: 20px;
     padding-bottom: 30px;
+    color: #ffffff;
+    font-weight: bold;
 }
 
 .hrr {
@@ -290,6 +314,8 @@ textarea {
     text-align: center;
     padding: 20px;
     padding-bottom: 30px;
+    color: #ffffff;
+    font-weight: bold;
 }
 
 .sectionHistoria {
@@ -311,6 +337,7 @@ textarea {
     align-items: center;
     font-size: 20px;
     margin-right: 100px;
+    color: #ffffff;
 }
 
 
@@ -349,8 +376,14 @@ textarea {
 .galeria-titulo {
     text-align: center;
     padding: 20px;
-    padding-bottom: 30px;
+    padding-bottom: 5px;
     font-size: 32px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.integrantes-titulo {
+    font-weight: bold;
 }
 
 
@@ -577,4 +610,140 @@ header {
 .grid-3 {
     margin-top: 60px;
 }
+
+.sectionindex {
+    height: 400px;
 }
+
+.seccionShows {
+    height: 900px;
+}
+
+.titulo {
+    text-align: center;
+}
+
+
+}
+
+
+.navbar-brand img {
+    height: 50px;
+}
+
+/* .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: #ffffff;
+}
+
+.navbar-brand {
+    color: #ffffff;
+}
+
+.navbar-brand:hover {
+    color: #ffffff;
+}
+
+.nav-link.active:hover {
+    color: rgba(255, 255, 255, 0.5);
+} 
+
+.titulo h3 h2 {
+    text-align: center;
+} */
+
+
+ .bg-lightt {
+    --bs-bg-opacity: 1;
+    background-color: #131313;
+}
+
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: #ffffff;
+}
+
+.nav-link.active:hover {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar-brand {
+    color: #ffffff;
+}
+
+.navbar-brand:hover {
+    color: #ffffff;
+}
+
+.titulo {
+    color: #ffffff;
+    text-align: center;
+    font-size: 90px;
+}
+
+hr {
+    color: #ffffff;
+}
+
+.imagenes-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-toggler {
+    color: #ffffff;
+} 
+
+.ml-10 {
+    margin-left: 100px !important;
+}
+
+.navbar-collapse {
+    display: flex;
+    justify-content: end;
+}
+
+.card {
+    margin-top: 30px;
+}
+
+.card-title {
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.card-text {
+    color: #000;
+}
+
+.historia-titulo {
+    font-weight: bold;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+.navbar-collapse {
+    justify-content: flex-start;
+}
+
+.grid-index {
+    overflow-x: hidden;
+    max-height: initial;
+    max-width: initial;
+    width: 100%;
+    
+}
+
+form {
+    margin-top: 150px;
+}
+
+.card {
+    margin-bottom: 30px;
+}
+
+    }
