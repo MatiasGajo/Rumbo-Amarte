@@ -336,7 +336,6 @@ textarea {
     justify-content: center;
     align-items: center;
     font-size: 20px;
-    margin-right: 100px;
     color: #ffffff;
 }
 
@@ -585,6 +584,18 @@ header {
 
 /* TABLET HISTORIA */
 
+
+.grid-todo5 {
+    overflow-x: hidden;
+    max-height: initial;
+    max-width: initial;
+    width: 100%;
+}
+
+.grid-historia {
+    grid-template-rows: 120px auto 75px;
+}
+
 .sectionHistoria {
     display: flex;
     flex-direction: column;
@@ -595,7 +606,6 @@ header {
 .sectionHistoria p {
     text-align: center;
     padding-top: 25px;
-    padding-left: 70px;
 }
 
 
