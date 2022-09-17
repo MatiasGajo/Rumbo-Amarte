@@ -524,6 +524,24 @@ html {
 
 @media screen and (max-width: 768px) {
 
+.sectionHistoria {
+    overflow-x: hidden;
+    max-height: initial;
+    max-width: initial;
+    width: 100%;
+}
+
+.grid-todo1 {
+    overflow-x: hidden;
+    max-height: initial;
+    max-width: initial;
+    width: 100%;
+}
+
+
+
+
+
 form {
     width: 400px;
 }
@@ -672,6 +690,25 @@ header {
 
 
 }
+@media screen and (max-width: 375px) {
+
+form {
+    width: 350px;
+}
+
+.form__input--enviar {
+    padding: 10px 125px;
+}
+
+.form__input--reset {
+    padding: 10px 105px;
+}
+
+
+
+
+}
+
 
 
 .navbar-brand img {
