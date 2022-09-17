@@ -365,7 +365,6 @@ textarea {
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     grid-auto-rows: minmax(450px, auto);
     gap: 20px;
-    padding: 20px;
     grid-auto-flow: dense;
 }
 
@@ -525,8 +524,20 @@ html {
 
 @media screen and (max-width: 768px) {
 
-/* TABLET INDEX */
+form {
+    width: 400px;
+}
 
+.form__input--enviar {
+    padding: 10px 150px;
+}
+
+.form__input--reset {
+    padding: 10px 130px;
+}
+
+
+/* TABLET INDEX */
 
 header {
     flex-direction: column;
@@ -586,6 +597,9 @@ header {
 .pablo {
     padding-bottom: 30px;
 }
+
+/* TABLET HISTORIA */
+
 }
 
 
