@@ -537,6 +537,13 @@ form {
 }
 
 
+.grid-3 {
+    overflow-x: hidden;
+    max-height: initial;
+    max-width: initial;
+    width: 100%;
+}
+
 /* TABLET INDEX */
 
 header {
