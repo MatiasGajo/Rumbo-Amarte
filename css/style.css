@@ -409,6 +409,33 @@ textarea {
 .grid-footer {
     grid-area: "footer";
 }
+
+/* GRID GALERIA */
+
+.grid-galeria {
+    display: grid;
+    grid-template-areas: 
+    "header5"
+    "todo5"
+    "footer5";
+    grid-template-rows: 75px auto 75px;
+}
+
+.grid-header5 {
+    grid-area: "header5";
+}
+
+.grid-todo5 {
+    grid-area: "todo5";
+}
+
+.grid-footer5 {
+    grid-area: "footer5";
+}
+
+
+
+
     /* GRID HISTORIA */
 
 html {
@@ -511,7 +538,6 @@ header {
 .titulo h1 {
     font-size: 40px;
     text-align: center;
-    padding-right: 50px;
 }
 
 .videoyoutube {
@@ -736,6 +762,20 @@ hr {
     max-width: initial;
     width: 100%;
     
+}
+
+.grid-1 {
+    overflow-x: hidden;
+    max-height: initial;
+    max-width: initial;
+    width: 100%;
+}
+
+.grid-historia {
+    overflow-x: hidden;
+    max-height: initial;
+    max-width: initial;
+    width: 100%;
 }
 
 form {
