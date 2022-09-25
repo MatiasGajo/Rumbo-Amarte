@@ -1,0 +1,129 @@
+@import "index";
+@import "historia";
+@import "contacto";
+@import "integrantes";
+@import "galeria";
+
+
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #131313;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+header {
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.navbar-brand {
+    img {
+    height: 50px;
+}
+}
+
+.bg-lightt {
+    --bs-bg-opacity: 1;
+    background-color: #131313;
+}
+
+.navbar-nav {
+.nav-link.active, .show>.nav-link {
+    color: #ffffff;
+}
+}
+
+.nav-link.active {
+    &:hover {
+    color: rgba(255, 255, 255, 0.5);
+}
+}
+
+.navbar-brand {
+    color: #ffffff;
+}
+
+.navbar-brand { 
+    &:hover {
+    color: #ffffff;
+}
+}
+
+.titulo {
+    color: #ffffff;
+    text-align: center;
+    font-size: 90px;
+}
+
+hr {
+    color: #ffffff;
+}
+
+.imagenes-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-toggler {
+    color: #ffffff;
+} 
+
+
+/* REDES FOOTER */
+
+.instagram {
+    img {
+    width: 50px;
+}
+}
+
+.facebook{
+    img {
+    width: 50px;
+}
+}
+
+.linkedin{
+    img {
+    width: 50px;
+}
+}
+
+.footerpa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.imgf {
+    padding: 5px 10px;
+}
+
+.footerpa { 
+    h3 {
+    color: #ffffff;
+}
+}
+
+.derechos {
+    color: #ffffff;
+}

@@ -1,0 +1,70 @@
+.seccionintegrantes {
+    display: flex;
+    justify-content: space-evenly
+}
+
+.tituloIntegrantes {
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 30px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.integrantes-titulo {
+    font-weight: bold;
+}
+
+.grid-11{
+    min-height: 100%;
+}
+
+.grid-11 {
+    display: grid;
+    grid-template-rows: 75px auto 75px;
+    grid-template-areas: 
+    "header22"
+    "todo22"
+    "footer22";
+}
+
+.grid-22 {
+    grid-area: "header22";
+}
+
+.grid-33 {
+    grid-area: "todo22";
+}
+
+.grid-44 {
+    grid-area: "footer22";
+}
+
+.card {
+    margin-top: 30px;
+}
+
+.card-title {
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.card-text {
+    color: #000;
+}
+
+
+@media screen and (max-width: 768px) {
+
+.seccionintegrantes {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    margin-bottom: 30px;
+    position: inherit;
+}
+}

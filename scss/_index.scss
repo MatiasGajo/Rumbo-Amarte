@@ -1,0 +1,215 @@
+
+/* INDEX */
+.sectionindex {
+    width: 100%;
+    height: 550px;
+    background: url(../imagenes/fotoindex.jpg) center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+/* Shows index */
+
+.divShows {
+    padding-top: 50px;
+}
+
+.seccionShows {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    height: 450px;
+}
+
+.seccionShows {
+    img {
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 50px;
+    border-radius: 10px;
+    transition: height 0s ease;
+}
+}
+
+.seccionShows{ 
+    img {
+        &:hover {
+        height: 420px;
+        box-shadow: 0 4px 25px 0 rgba(148, 141, 141, 0.3), 0 0 1px 0 rgba(148,141,141,.25);
+    }
+}
+}
+
+.Shows{ 
+    h2 {
+    text-align: Center;
+    text-transform: uppercase;
+    padding-top: 80px;
+    font-size: 35px;
+    color: #ffffff;
+    font-weight: bold;
+}
+}
+
+.divShows{ 
+    p {
+    margin-left: 15px;
+}
+}
+
+/* CANCIONES */
+
+.canciones{ 
+    h2 {
+    text-align: Center;
+    text-transform: uppercase;
+    padding-top: 80px;
+    font-size: 35px;
+    color: #ffffff;
+    font-weight: bold;
+}
+}
+
+.sectioncanciones {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+ .botonvideos {
+    cursor: pointer;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #262626;
+    color: #ffffff;
+    font-size: 15px;
+    border: 1px solid #ffffff;
+    display: inline-block;
+
+} 
+.boton {
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 20px;
+}
+
+.grid-index {
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "todo"
+    "footer";
+    grid-template-rows: 75px auto 75px; 
+}
+
+.grid-header {
+    grid-area: "header";
+}
+
+.grid-todo {
+    grid-area: "todo";
+}
+
+.grid-footer {
+    grid-area: "footer";
+}
+
+.navbar-collapse {
+    display: flex;
+    justify-content: end;
+}
+
+@media screen and (max-width: 768px) {
+
+header {
+    flex-direction: column;
+}
+
+.titulo { 
+    h3 {
+    display: none;
+}
+}
+.titulo {
+    h1 {
+    font-size: 40px;
+    text-align: center;
+}
+}
+
+.videoyoutube {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.navbar-collapse {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.grid-index {
+    overflow-x: hidden;
+    max-height: initial;
+    max-width: initial;
+    width: 100%;
+    
+}
+}
+
+@media screen and (max-width: 500px) {
+
+.grid-todo {
+    width: 100%;
+}
+
+.seccionShows { 
+    img {
+    margin: 0px;
+}
+}
+
+.divShows { 
+    p {
+    margin: 0px;
+}
+
+}
+.seccionShows {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectioncanciones {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.videoyoutube {
+    padding-bottom: 25px;
+}
+
+.sectionindex {
+    height: 400px;
+}
+
+.seccionShows {
+    height: 900px;
+}
+
+.titulo {
+    text-align: center;
+}
+}
+
+.navbar-toggler {
+    background-color: #ffffff;
+}
