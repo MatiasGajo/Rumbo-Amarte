@@ -36,7 +36,7 @@
   text-transform: uppercase;
   padding-top: 80px;
   font-size: 35px;
-  color: #ffffff;
+  color: #fff;
   font-weight: bold; }
 
 .divShows p {
@@ -48,7 +48,7 @@
   text-transform: uppercase;
   padding-top: 80px;
   font-size: 35px;
-  color: #ffffff;
+  color: #fff;
   font-weight: bold; }
 
 .sectioncanciones {
@@ -62,7 +62,7 @@
   font-weight: bold;
   padding: 10px 20px;
   background: #262626;
-  color: #ffffff;
+  color: #fff;
   font-size: 15px;
   border: 1px solid #ffffff;
   display: inline-block; }
@@ -109,7 +109,8 @@
     overflow-x: hidden;
     max-height: initial;
     max-width: initial;
-    width: 100%; } }
+    width: 100%;
+    grid-template-rows: 105px auto 75px; } }
 
 @media screen and (max-width: 500px) {
   .grid-todo {
@@ -137,13 +138,17 @@
     text-align: center; } }
 
 .navbar-toggler {
-  background-color: #ffffff; }
+  background-color: #fff; }
+
+@media screen and (max-width: 325px) {
+  .navbar-brand {
+    font-size: 14px; } }
 
 .tituloHistoria {
   text-align: center;
   padding: 20px;
   padding-bottom: 30px;
-  color: #ffffff;
+  color: #fff;
   font-weight: bold; }
 
 .sectionHistoria {
@@ -159,7 +164,7 @@
     justify-content: center;
     align-items: center;
     font-size: 20px;
-    color: #ffffff; }
+    color: #fff; }
 
 html {
   height: 100%; }
@@ -311,7 +316,7 @@ textarea {
   text-align: center;
   padding: 20px;
   padding-bottom: 30px;
-  color: #ffffff;
+  color: #fff;
   font-weight: bold; }
 
 .integrantes-titulo {
@@ -357,7 +362,7 @@ textarea {
 .galeria h1 {
   text-align: center;
   font-size: 50px;
-  color: #ffffff;
+  color: #fff;
   font-weight: bold; }
 
 .galeria-img {
@@ -385,7 +390,7 @@ textarea {
   padding: 20px;
   padding-bottom: 5px;
   font-size: 32px;
-  color: #ffffff;
+  color: #fff;
   font-weight: bold; }
 
 .grid-galeria {
@@ -439,7 +444,8 @@ header {
   height: 60px;
   justify-content: space-between;
   align-items: center;
-  padding: 10px; }
+  padding: 10px;
+  width: 100%; }
 
 .navbar-brand img {
   height: 50px; }
@@ -478,13 +484,14 @@ hr {
   color: #ffffff; }
 
 /* REDES FOOTER */
-.instagram img {
+/* MAPA REDES */
+.btn--instagram img {
   width: 50px; }
 
-.facebook img {
+.btn--facebook img {
   width: 50px; }
 
-.linkedin img {
+.btn--linkedin img {
   width: 50px; }
 
 .footerpa {
