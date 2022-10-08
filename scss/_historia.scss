@@ -57,7 +57,14 @@ html {
 .historia-titulo {
     font-weight: bold;
 }
+@media screen and (max-width: 1024px) { 
 
+    .sectionHistoria p {
+        margin-top: 0px;
+    }
+
+
+}
 @media screen and (max-width: 768px) {
 
     .sectionHistoria {
