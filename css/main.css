@@ -66,6 +66,8 @@
   font-size: 15px;
   border: 1px solid #ffffff;
   display: inline-block; }
+  .botonvideos:hover {
+    color: #ffffff4b; }
 
 .boton {
   text-align: center;
@@ -160,9 +162,8 @@
     margin-left: 40px;
     margin-right: 30px; }
   .sectionHistoria p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-top: 80px;
+    margin-right: 20px;
     font-size: 20px;
     color: #fff; }
 
@@ -209,7 +210,9 @@ html {
     align-items: center; }
     .sectionHistoria p {
       text-align: center;
-      padding-top: 25px; }
+      padding-top: 25px;
+      margin-left: 20px;
+      margin-top: 0px; }
   .grid-historia {
     overflow-x: hidden;
     max-height: initial;
@@ -464,7 +467,7 @@ header {
   color: #ffffff; }
 
 .navbar-brand:hover {
-  color: #ffffff; }
+  color: rgba(255, 255, 255, 0.5); }
 
 .titulo {
   color: #ffffff;

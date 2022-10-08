@@ -102,6 +102,9 @@ color: #fff,
     font-size: 15px;
     border: 1px solid #ffffff;
     display: inline-block;
+    &:hover {
+        color: #ffffff4b;
+    }
 
 } 
 .boton {
