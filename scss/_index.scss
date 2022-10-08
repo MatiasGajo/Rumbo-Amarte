@@ -8,6 +8,23 @@ color: #fff,
 }
 
 
+@media screen and (max-width: 1440px) {
+
+
+    .grid-index {
+        overflow-x: hidden;
+        max-height: initial;
+        max-width: initial;
+        width: 100%;
+    }
+
+    .grid-todo {
+        overflow-x: hidden;
+        max-height: initial;
+        max-width: initial;
+        width: 100%;
+    }
+}
 
 
 
@@ -23,6 +40,12 @@ color: #fff,
 
 /* Shows index */
 
+.grid-index {
+    overflow-x: hidden;
+    max-height: initial;
+    max-width: initial;
+    width: 100%;
+}
 
 .divShows {
     padding-top: 50px;

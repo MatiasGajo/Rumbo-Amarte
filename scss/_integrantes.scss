@@ -54,6 +54,31 @@
     color: #000;
 }
 
+.grid-11 {
+    overflow-x: hidden;
+    max-height: initial;
+    max-width: initial;
+    width: 100%;
+}
+
+@media screen and (max-width: 1440px) {
+
+
+    .grid-11 {
+        overflow-x: hidden;
+        max-height: initial;
+        max-width: initial;
+        width: 100%;
+    }
+
+    .grid-33 {
+        overflow-x: hidden;
+        max-height: initial;
+        max-width: initial;
+        width: 100%;
+    }
+}
+
 
 @media screen and (max-width: 768px) {
 
